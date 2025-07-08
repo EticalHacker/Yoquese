@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorpresa Musical - Tek It</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Imágenes decorativas de fondo completo -->
+    <div class="background-images">
+        <div class="left-background">
+            <img src="imagenes/asa.jpg" alt="Decoración izquierda">
+        </div>
+        <div class="right-background">
+            <img src="imagenes/denji.jpg" alt="Decoración derecha">
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Carta cerrada -->
+        <div class="card-envelope" id="cardEnvelope">
+            <div class="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="heart">💝</div>
+                    <p class="envelope-text">Para ti, con esmero y esfuerzo</p>
+                    <p class="click-hint">Haz clic para abrir</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenido de la carta abierta -->
+        <div class="card-content" id="cardContent">
+            <div class="card-header">
+                <h1>🎵 Una Canción Especial Para Ti 🎵</h1>
+                <div class="motivational-message">
+                    <p>ÑIÑIÑI uno se tarda en hacer estas cosas para que sepas que si ando aca esperando que mejores emocionalmente</p>
+                </div>
+            </div>
+
+            <div class="music-player">
+                <div class="player-header">
+                    <h2>Tek It - Cafuné</h2>
+                    <div class="album-art">🎼</div>
+                </div>
+
+                <audio id="audioPlayer" controls>
+                    <source src="audios/Cafuné - Tek It (I Watch The Moon) [Official Video].mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+
+                <div class="lyrics-container">
+                    <div class="lyrics" id="lyrics">
+                        <div class="lyric-line" data-time="1">Where did you learn what it means to reciprocate?</div>
+                        <div class="lyric-line" data-time="6">And how much can I be expected to tolerate? Oh</div>
+                        <div class="lyric-line" data-time="14">So I started to think about the plans I made</div>
+                        <div class="lyric-line" data-time="17">The debt, unpaid</div>
+                        <div class="lyric-line" data-time="21">And you just can't call</div>
+                        <div class="lyric-line" data-time="23">A spade a spade</div>
+                        <div class="lyric-line" data-time="27">I watch the moon</div>
+                        <div class="lyric-line" data-time="32">Let it run my mood</div>
+                        <div class="lyric-line" data-time="35">Can't stop thinking of you</div>
+                        <div class="lyric-line" data-time="41">I watch you (now I let it go)</div>
+                        <div class="lyric-line" data-time="44">(And I watch as things play out like)</div>
+                        <div class="lyric-line" data-time="47">So long nice to know you I'll be</div>
+                        <div class="lyric-line" data-time="50">Moving on</div>
+                        <div class="lyric-line" data-time="54">We started off in such a nice place</div>
+                        <div class="lyric-line" data-time="57">We were talking the same language</div>
+                        <div class="lyric-line" data-time="60">I o-open and I'm closing</div>
+                        <div class="lyric-line" data-time="63">You can't stand the thought</div>
+                        <div class="lyric-line" data-time="65">Of a real beating heart</div>
+                        <div class="lyric-line" data-time="67">You'd be holding, having trouble</div>
+                        <div class="lyric-line" data-time="70">O-O-Owning and admit that I am hoping</div>
+                        <div class="lyric-line" data-time="77">I watch the moon</div>
+                        <div class="lyric-line" data-time="81">Let it run my mood</div>
+                        <div class="lyric-line" data-time="85">Can't stop thinking of you</div>
+                        <div class="lyric-line" data-time="90">I watch you (now I let it go)</div>
+                        <div class="lyric-line" data-time="93">(And I watch as things play out like)</div>
+                        <div class="lyric-line" data-time="96">So long nice to know you I'll be</div>
+                        <div class="lyric-line" data-time="100">Moving on</div>
+                        <div class="lyric-line" data-time="103">Moving on</div>
+                        <div class="lyric-line" data-time="132">You</div>
+                        <div class="lyric-line" data-time="133">Yeah, I always know the truth</div>
+                        <div class="lyric-line" data-time="136">But I can't just say it to you</div>
+                        <div class="lyric-line" data-time="140">Yeah, I know the truth</div>
+                        <div class="lyric-line" data-time="144">I knew</div>
+                        <div class="lyric-line" data-time="146">Yeah, I always know the truth</div>
+                        <div class="lyric-line" data-time="149">But I can't just say it to you</div>
+                        <div class="lyric-line" data-time="153">Yeah, I know the truth</div>
+                        <div class="lyric-line" data-time="158.5">I never thought we'd see it through</div>
+                        <div class="lyric-line" data-time="162">I never could rely on you</div>
+                        <div class="lyric-line" data-time="165">And few times your face came</div>
+                        <div class="lyric-line" data-time="170">Into view</div>
+                        <div class="lyric-line" data-time="173">Into view</div>
+                        <div class="lyric-line" data-time="177">I'm not into you</div>
+                        <div class="lyric-line" data-time="180">Into you</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <p>con todo mi esfuerzo pq no tengo anda mas que hacer</p>
+                <button class="close-btn" id="closeBtn">Cerrar carta</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
